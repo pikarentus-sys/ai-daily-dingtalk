@@ -2,8 +2,9 @@ name: AI Daily Push
 
 on:
   schedule:
-    # UTC 23:38 = 北京时间 7:38（推送昨日傍晚发布的日报）
-    - cron: "38 23 * * *"
+    # 北京时间 7:38 推送昨日傍晚发布的日报
+    - cron: "38 7 * * *"
+      timezone: "Asia/Shanghai"
   workflow_dispatch:
 
 jobs:
