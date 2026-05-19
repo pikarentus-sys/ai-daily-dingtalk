@@ -2,8 +2,8 @@ name: AI Daily Push
 
 on:
   schedule:
-    # UTC 0:00 = 北京时间 8:00（GitHub 只认 UTC，不支持 timezone）
-    - cron: "0 0 * * *"
+    # UTC 23:38 = 北京时间 7:38（GitHub 只认 UTC）
+    - cron: "38 23 * * *"
   workflow_dispatch:
 
 jobs:
