@@ -7,7 +7,7 @@ from datetime import datetime, timezone, timedelta
 BJ_TZ = timezone(timedelta(hours=8))
 
 # 钉钉机器人 Webhook
-WEBHOOK_URL = "https://oapi.dingtalk.com/robot/send?access_token=a83f90839e5666b3c8d9789262fdf9e8a14ae031ceaa09f5c801a996a7351e21"
+WEBHOOK_URL = "https://oapi.dingtalk.com/robot/send?access_token=c3cb96f094f75cf54fb9ac901ad756a4d4ec8357f82ef0dc3ae76e6616ad3224"
 
 # AIBase 日报页面
 DAILY_URL = "https://news.aibase.com/zh/daily"
